@@ -19,6 +19,9 @@
         <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
     </properties>
     <modules>
+        <module>component/eureka-server</module>
+        <module>business/order-server</module>
+        <module>business/book-server</module>
     </modules>
     <dependencies>
         <dependency>
